@@ -1,0 +1,22 @@
+{
+  "name": "node-api-testing-demo",
+  "version": "1.0.0",
+  "description": "A simple Node.js API with automated tests",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "supertest": "^6.3.3",
+    "vitest": "^1.6.1"
+  }
+}
