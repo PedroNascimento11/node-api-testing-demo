@@ -15,6 +15,11 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+// Root Route
+app.get('/', (req, res) => {
+  res.send('API is running.');
+}); 
+
 // Error handling (optional)
 app.use((err, req, res, next) => {
   console.error(err.stack);
